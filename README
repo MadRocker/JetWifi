@@ -1,0 +1,17 @@
+Use this as base example to get wifi working for Eclair to 2.3.3.
+
+Edit your init.rc with the automount + wifi sections.
+
+Use any wifi working kernel you like.
+
+Ginger:
+wifi = enable then "turning on ..." message and then nothing.
+
+I had some success with using the eclair "lib hardware legacy .so" but this causes pid issues during start but works.
+use only eclair wpa_supplicant.conf with eclair, same for froyo use froyo wpa_supplicant.conf with froyo ect. otherwise you get pid errors.
+
+system/etc/wifi
+only needs to have 1 file = wpa_supplicant.conf
+the rest can be in 
+system/etc
+
