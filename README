@@ -1,3 +1,16 @@
+#################
+Update 30Jun2011
+Make sure you have a good JetEclair libhardware_legacy.so or libhardware.so as this will enable the wifi in Froyo and later versions of Android. 
+libhardware_legacy.so & libhardware.so is hardware specific.
+
+You should only need to replace libhardware_legacy.so if using Cm Spica or Galaxy Tab 1 or SDK version or Android versions with the same hardware.
+
+have not tested the JetFroyo Github binary versions libhardware_legacy.so as this could be a better file. 
+Lots of testing needed.
+
+End of Update
+#################
+
 Use this as base example to get wifi working for Eclair to 2.3.3.
 
 Edit your init.rc with the automount + wifi sections.
